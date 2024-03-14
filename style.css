@@ -1,0 +1,390 @@
+*{ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(32, 27, 27, 0.759);
+}
+
+.container {
+    display: flex;
+    width: 418px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid red;
+    background-color: black;
+
+}
+
+.container.container-1 {
+    justify-content: left;
+}
+
+.container.container-2 {
+    justify-content: center;
+}
+
+.container.container-3 {
+    justify-content: right;
+}
+
+.container.container-4 {
+    justify-content: space-around;
+}
+
+.container.container-5 {
+    justify-content: space-between;
+}
+
+.container.container-6 {
+    justify-content: space-evenly;
+}
+
+.container.container-7 {
+    height: 300px;
+
+
+
+}
+
+.container.container-8 {
+    height: 300px;
+
+
+}
+
+.box {
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.box.box-1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-2 {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-3 {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-4 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-5 {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-6 {
+    background-color: rgb(110, 195, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-7 {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-8 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-9 {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.box-10 {
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-8 .box.box-1 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-2 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-3 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-4 {
+    height: 100px;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container-8 .box.box-5 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-6 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-7 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-8 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-9 {
+    height: 100px;
+
+}
+
+.container-8 .box.box-10 {
+    height: 100px;
+
+}
+
+.container.container.container-9 {
+    height: 300px;
+
+}
+
+.container-9 .box {
+    height: 30px;
+    margin-top: 60px;
+}
+
+.container-9 .box.box-3 {
+    margin-top: 70px;
+    height: 10px;
+}
+
+.container-9 .box.box-5 {
+    height: 80px;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.container-9 .box.box-7 {
+    margin-top: 70px;
+    height: 8px;
+}
+
+.container-9 .box.box-8 {
+    height: 80px;
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+.container-10 {
+    height: 300px;
+}
+
+.container-10 .box {
+    height: 25px;
+}
+
+.container-11 {
+    height: 300px;
+    align-items: center;
+}
+
+.container-12 {
+    height: 300px;
+    align-items: flex-end;
+}
+
+.container-13 {
+    height: 300px;
+}
+
+.container-13 .box.box-3 {
+    align-self: start;
+}
+
+.container-14 {
+    height: 300px;
+}
+
+.container-14 .box.box-3 {
+    align-self: center;
+}
+
+.container-15 {
+    height: 300px;
+}
+
+.container-15 .box.box-3 {
+    align-self: flex-end;
+}
+
+
+.container-16 {
+    height: 300px;
+    align-items: center;
+}
+
+.container-16 .box.box-3 {
+    height: 290px;
+}
+
+.container-17 {
+    height: 300px;
+}
+
+.container-17 .box.box-3 {
+    height: 40px;
+    margin-top: 30px;
+}
+
+.container-17 .box.box-4 {
+    height: 90px;
+    font-size: 80px;
+
+}
+
+.container-17 .box.box-5 {
+    height: 30px;
+    margin-top: 40px;
+}
+
+.container-18 {
+    height: 300px;
+}
+.container-19 {
+    padding-bottom: 170px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   flex-direction: row;
+  
+} .container-19 .box {
+    width: 138px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.container-20 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-content: center;
+   
+}
+.container-20 .box {
+    width: 138px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.container-21 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-content: flex-end;
+   
+}
+.container-21 .box {
+    width: 138px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.container-22 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-content: space-around;
+}
+.container-22 .box {
+    width: 138px;
+    height: 30px;
+    align-content: space-around;
+}
+.container-23 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-content: space-between;
+}.container-23 .box {
+    width: 138px;
+    height: 30px;
+    align-content: space-between;
+}
+.container-24 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   align-content: space-evenly;
+}
+.container-24 .box {
+    width: 138px;
+    height: 30px;
+    align-content: space-evenly;
+}
+
+.container-25 {
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   flex-direction: row;
+   
+}
+.container-25 .box {
+    width: 138px;
+    height: 80px;
+    
+}
